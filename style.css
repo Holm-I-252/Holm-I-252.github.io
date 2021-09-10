@@ -158,7 +158,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    width: 40%;
+    width: 100%;
 }
 #contactTitle {
     display: flex;
@@ -167,12 +167,32 @@ hr {
     font-size: 50px;
     padding-bottom: 20px;
 }
+#githubLogo {
+    height: 120px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
 #githubLink {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-size: 30px;
     padding-bottom: 20px;
 } 
-#linkedin {
+#linkedInLink {
     font-size: 30px;
     padding-bottom: 20px;
+}
+#linkedInLogo {
+    height: 100px;
+}
+#contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+#sites {
+    display: flex;
+    justify-content: center;
+    width: 40%;
 }
