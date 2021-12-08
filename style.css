@@ -1,198 +1,294 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-
-h2, h3, h4 {
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
+h2,
+h3,
+h4 {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
 }
 #headder {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0px;
 }
 #headInfo {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    margin-bottom: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 #name {
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    font-size: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-size: 75px;
 }
 hr {
-    width: 50%;
+  width: 50%;
 }
 #profilePic {
-    width: 50%;
-    margin-right: auto;
+  width: 50%;
+  margin-right: auto;
 }
 #title {
-    margin-left: auto;
-    margin-right: auto;
-    font-style: italic;
-    font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  font-size: 40px;
 }
-#about{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(4, 3, 77);
+#about {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(4, 3, 77);
 }
 #aboutTitle {
-    padding-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
-    color: rgb(250, 253, 255);
-    text-decoration: rgb(250, 253, 255) underline;
-    font-size: 50px;
-    padding-bottom: 20px;
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(250, 253, 255);
+  text-decoration: rgb(250, 253, 255) underline;
+  font-size: 50px;
+  padding-bottom: 20px;
 }
-#description{
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    color: rgb(250, 253, 255);
-    padding-bottom: 50px;
-    font-size: 20px;
+#description {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(250, 253, 255);
+  padding-bottom: 50px;
+  font-size: 20px;
 }
 #skills {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
 #skillsTitle {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
-    text-decoration: underline;
-    font-size: 50px;
-    padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  text-decoration: underline;
+  font-size: 50px;
+  padding-bottom: 40px;
 }
 #allSkills {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 .skillName {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .skill {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 .icon {
-    max-width:100%;
-    height:auto;
+  max-width: 100%;
+  height: auto;
+}
+#expressImg {
+  margin-top: 20px;
+}
+#reactImg {
+  height: 100%;
+  width: 200%;
 }
 #Projects {
-   margin-bottom: 50px;
-   background-color: rgb(4, 3, 77);
+  margin-bottom: 50px;
+  background-color: rgb(4, 3, 77);
+}
+.projectArea {
+  display: flex;
+  flex-direction: row;
 }
 #projectTitle {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    color: rgb(250, 253, 255);
-    padding-top: 50px;
-    text-decoration: rgb(250, 253, 255) underline;
-    font-size: 50px;
-    padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: rgb(250, 253, 255);
+  padding-top: 50px;
+  text-decoration: rgb(250, 253, 255) underline;
+  font-size: 50px;
+  padding-bottom: 20px;
 }
 #Hangman {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  width: 50%;
 }
 #hangmanTitle {
-    display: flex;
-    justify-content: center;
-    color: rgb(250, 253, 255);
-    font-style: italic;
-    font-size: 30px;
-    padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  color: rgb(250, 253, 255);
+  font-style: italic;
+  font-size: 30px;
+  padding-bottom: 20px;
 }
 #hangmanPic {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-    height: auto;
-    padding-bottom: 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  height: auto;
+  padding-bottom: 20px;
 }
 .projectDescript {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    color: rgb(250, 253, 255);
-    padding-bottom: 50px;
-    font-size: 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  color: rgb(250, 253, 255);
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+#scoreSaver {
+  width: 50%;
+}
+#scoreTitle {
+  display: flex;
+  justify-content: center;
+  color: rgb(250, 253, 255);
+  font-style: italic;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+#scorePic {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
 #contact {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 100%;
 }
 #contactTitle {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-    font-size: 50px;
-    padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 50px;
+  padding-bottom: 20px;
 }
 #githubLogo {
-    height: 120px;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
+  height: 120px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 #githubLink {
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    font-size: 30px;
-    padding-bottom: 20px;
-} 
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
 #linkedInLink {
-    font-size: 30px;
-    padding-bottom: 20px;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 #linkedInLogo {
-    height: 100px;
+  height: 100px;
 }
 #contacts {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
 }
 #sites {
-    display: flex;
-    justify-content: center;
-    width: 40%;
+  display: flex;
+  justify-content: center;
+  width: 40%;
 }
